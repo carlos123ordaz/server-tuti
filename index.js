@@ -8,7 +8,7 @@ const ALLOWED_ORIGINS = [
   'http://localhost:3000',
   'http://localhost:5173',
   'https://admin.socket.io',
-  'https://react-tutifruti.vercel.app'
+  'https://tutifruti-game.vercel.app'
 ];
 
 const io = require('socket.io')(server, {
